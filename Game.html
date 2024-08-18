@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <script src="pig.js"></script>
+    <!-- this is an HTML comment! Woah! It's for CSC102 1.2
+    By Cooper Clark
+    Email: cooperclarkbusiness@gmail.com -->
+    <title>
+    Games!
+    </title>
+
+    <nav>
+
+        <center><div>
+            <h2>Navigation!</h2>
+            <a href="./CSC102-1.02.html">Home</a><br>
+            <a href="./boards.html">Course Objectives</a><br>
+            <a href="./game.html">Games</a><br>
+            <a href="./strings.html">Strings</a><br>
+        </div></center>
+
+	</nav>
+
+    <center><body>
+        <!-- This is the Title -->
+
+        
+
+        <h1>The game of Craps.</h1>
+         <button onclick="craps()"> Play Craps</button> <br>
+         Die 1 Result: <div id="d1">- </div> <br>
+         Die 2 Result: <div id="d2">- </div> <br>
+         Total: <div id="sum">- </div> <br>
+         Game Result: <div id="crapsgameresult">- </div> <br>
+        
+    </body>
+
+    <body>
+        <h1>Vine Boom</h1>
+
+        How to play Vine Boom: <br>
+        Press the play button <br>
+        boooooooom <br>
+        <audio hidden id="vineBoom" src="vineBoom.mp3" type="audio/mp3" controls></audio> <br>
+        <button onclick="playVineBoom()"> Click here to win</button> <br> <br>
+
+        <!--<audio id="vineBoom" controls>
+            <source src="vineBoom.mp3" type="audio/mp3">
+            </audio> <br>-->
+
+        Type something funny to get extra credit: <br>
+        <form action="Game.html" method="get"> 
+            <label for="yipyap">Funny Here: </label><br>
+            <input oninput="playVineBoom()" type="text" id="yipyap"><br>
+        </form>
+        <br><br><br>
+
+        <h1> CALM AND THOUGHTFUL POLITICAL DISCUSSION SIMULATOR </h1>
+
+        How to use CFPDS: <br>
+        Choose your colour. <br>
+        Type a political opinion into the text box <br>
+        I will argue it. <br>
+
+        <button style="color: red;" onclick="selectRight()"> Right</button> <br>
+        <button style="color: blue;" onclick="selectLeft()"> Left</button> <br>
+        <button onclick="playVineBoom()"> Click here to reveal other options</button> <br>
+        You are currently a: 
+        <label id="identity"></label>
+        <br><br>
+        <form action="Game.html" method="get"> 
+            Put argument here: <br>
+            <input oninput="playVineBoom()" onchange="submitArgument()" type="text" id="polinput"><br>
+            My counterargument: <label id="counter"></label>
+        </form><br>
+
+        <table>
+            <tr>
+                <td> </td>
+              <td>Your Points</td>
+              <td>My Points</td>
+              <td>Comments</td>
+            </tr>
+            <tr>
+                <td>Takedowns </td>
+              <td id="UserTakes"></td>
+              <td id="CFPDSTakes"></td>
+              <td>You've Been Owned</td>
+            </tr>
+            <tr>
+                <td>Blunders</td>
+                <td id="UserBlunders"></td>
+                <td id="CFPDSBlunders"></td>
+                <td>Loser</td>
+            </tr>
+            <tr>
+                <td>Goofs</td>
+                <td id="UserGoofs"></td>
+                <td id="CFPDSGoofs"></td>
+                <td>Goofy Ah Argument</td>
+            </tr>
+            <tr>
+                <td>Absolute Follies</td>
+                <td id="UserAFollies"></td>
+                <td id="CFPDSAFollies"></td>
+                <td>Absolute Folly</td>
+            </tr>
+          </table>
+
+        <br><br><br><br>
+    </center></body>
+    
+
+</html>

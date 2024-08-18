@@ -1,0 +1,49 @@
+body{
+background-color:rgb(75, 75, 75);
+color:rgb(255, 255, 255);
+}
+
+scarytext{
+color:rgb(255, 0, 0);
+font-size: x-large;
+}
+
+nav{
+height:6000px;
+width:200px;
+float:left;
+padding:5px;
+line-height:30px;
+}
+
+footer{
+text-align:center;
+margin-right:200px;
+}
+
+#memeImage{
+position: absolute;
+align-: center;
+margin-right:200px;
+}
+
+header{
+	text-align:center;
+}
+
+table, tr, td {
+	border: 2px dotted;
+	border-color: red;
+  }
+
+tr, td {
+	border: 2px dotted;
+	border-color: blue;
+	color: black;
+	background-color: white;
+}
+
+nav {
+	background-color: black;
+	color: white;
+}

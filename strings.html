@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <script src="strings.js"></script>
+    <!-- this is an HTML comment! Woah!
+    By Cooper Clark
+    Email: cooperclarkbusiness@gmail.com -->
+    <title>
+    Strings!
+    </title>
+
+    <nav>
+
+        <center><div>
+            <h2>Navigation!</h2>
+            <a href="./CSC102-1.02.html">Home</a><br>
+            <a href="./boards.html">Course Objectives</a><br>
+            <a href="./game.html">Games</a><br>
+            <a href="./strings.html">Strings</a><br>
+        </div></center>
+
+	</nav>
+
+    <center><body>
+        <!-- This is the Title -->
+        
+        You need to input this vital information if you want to see my super secret message.
+        <form action="strings.html" method="get"> 
+            <label for="fname">First name: </label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name: </label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="zcode">ZIP code: </label><br>
+            <input type="text" id="zcode" name="zcode">
+        </form>
+        <button onclick="submitName()">Submit</button> <br>
+        <div id="warning"> </div> <br>
+        <scarytext id="result"> </scarytext> <br><br><br>
+
+        If you want to know if a specific phrase is a palindrome, check here!
+        <form action="strings.html" method="get"> 
+            <label for="query">Input here!: </label><br>
+            <input type="text" id="query" name="query"><br>
+        </form>
+        <button onclick="submitPalindrome()">Submit</button> <br>
+        <div id="palresult"> </div> <br>
+        
+    </center></body>
+</html>
